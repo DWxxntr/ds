@@ -1,72 +1,80 @@
 <!DOCTYPE html>
-<!-- document type and version-->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- meta is extra data to the HTML document. All the tet is encoded with utf-->
-    <title> Derek's Personal Site</title>
-    <!-- This will be the webiste tab name-->
-  </head>
-  <!-- Head is the information about the page.-->
-  <!-- Body will be everything of the website-->
-  <body>
-    <table cellspacing="20"> <!--pulls the informaiton or table away from the photo-->
-      <td>  <img src="Image/Image 2.jpg" alt="Derek Posing"
-        width="300"></td>
-      <td>  <h1> Derek Singh</h1>
-        <p><em> <a href="https://www.cool.osd.mil/army/enlisted/25b.htm">Information Technology Speciliast</a> at <strong>U.S. Army</strong></em></p>
 
-        <p>As an Information Technology Specialist, we maintain, process,
-          and troubleshoot military computer systems and operations.</p>
-          <p> <a href="https://www.linkedin.com/in/derek-singhusa/">My Linkedin Profile</a> </p>
-  <!-- P is the paragraphs you want to write on the website --></td>
-    </table>
+<head>
+  <meta charset="utf-8">
+  <title>Derek Singh</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <!-- Icon for tab so it doesnt
+    show a file only -->
+</head>
 
-                  <hr>
 
-<h3>Experience</h3>
-<h4>United States Army</h4>
 
-<!-- tabel are used to line wording up nicely. To line up spacing-->
-<table border="1"> <!-- border is the add on to get a table border without CSS-->
-  <thead> <!-- Title for the table.-->
-    <tr>
-      <th>Date</th> <!-- Table header will come out bold already-->
-      <th>Work</th>
-    </tr>
-  </thead>
-  <tr>
-    <!-- this will be the first row or top row to start-->
-    <td>2013 - 2020</td> <!-- This is the table data for the first block in row-->
-    <td>Logistics Cooridinator</td>
-  </tr>
-  <tr> <!-- makes another row on the table. So far two rows-->
-    <td>2020 - Current</td>
-    <td>Sr. Information Technology Supervisor</td>
-  </tr>
-</table>
 
-                    <hr>
+<body>
 
-<h3>Skills</h3>
-<table cellspacing="10">
-  <tr>
-    <td>Networking</td>
-    <td>⭐⭐⭐⭐⭐</td>
-  </tr>
-  <tr>
-    <td>Tier 2 Help Desk</td>
-    <td>⭐⭐⭐⭐⭐</td>
-  </tr>
-  <tr>
-    <td>Budgeting</td>
-    <td>⭐⭐⭐⭐⭐</td>
-  </tr>
-</table>
 
-<a href="My Education.html">Education</a>
-<a href="contactme.html">Contact Me</a>
 
-  </body>
+
+  <div class="top-container">
+    <!-- divide content up. must use css. content divsion.boxes
+       -->
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-png">
+    <h1>I'm Derek</h1>
+    <h2>an upcoming <span class="web">web</span> designer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-png">
+    <img src="images/mountain.png" alt="mountain-png">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="Images/IMG_0502.jpg" alt="profile-pic">
+      <h2>Hello.</h2>
+      <p> Currently a Senior Information Technology Superivsor for the U.S. Army. <br>
+      Enjoy fahsion design and outdoor activities during my free time.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="it-job" src="https://media4.giphy.com/media/umjnO4NQzxViBH5eZR/giphy.gif?cid=ecf05e470tkk6w925q7lbeo2b1k7ockppe1wkkc52ex9rd1b&rid=giphy.gif&ct=s" alt="it-job">
+        <h3>Tier 2 Help Desk</h3>
+        <p>Providing customers with support for corporate owned assets
+          (primarily workstations, laptops, servers), which will include basic help desk support up to advanced troubleshooting. </p>
+      </div>
+      <div class="skill-row">
+        <img class="logistics-pic" src="https://media2.giphy.com/media/HWhlNhHNN7zGwMfGV4/giphy.gif?cid=ecf05e47dyfattx0iaq2haa7yilbllqec1bk51qouxknf0i5&rid=giphy.gif&ct=s" alt="budgeting">
+        <h3>Budget Analysis</h3>
+        <p>Responsible for reviewing the organization's budget and approving spending requests through evidence-based analyses of merit and authenticity.
+          They monitor their assigned organization's expenditures against set budgets while preparing
+          accurate reports that estimate future financial needs.</p>
+      </div>
+    </div>
+
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>You're almost there!</h3>
+      <p>See the button below</p>
+
+      <a class="btn" href="mailto:singh.derek@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <br>
+    <a class="footer-link" href="https://www.linkedin.com/in/derek-singhusa/">LinkedIn</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p>© 2020 Derek Singh.</p>
+  </div>
+
+
+
+
+
+</body>
 
 </html>
